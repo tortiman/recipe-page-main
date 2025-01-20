@@ -1,0 +1,102 @@
+:root{
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'outfit';
+    font-weight: 400;
+}
+
+.background{
+    background-color: var(--Stone100);
+    width: 1440px;
+    height: 1955px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-container{
+    width: 736px;
+    height: 1710px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+   
+}
+
+.image-preparation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.image{
+    width: 657px;
+    height: 301px;
+    border-radius: 20px;
+}
+
+.preparation{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 39px;
+    margin-right: 39px;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.title{
+    font-family: "Young Serif";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.time-preparation{
+    background-color: var(--Rose50);
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.title-time-preparation{
+    margin-left: 28px;
+    margin-top: 21.5px;
+    margin-bottom: 7px;
+    color: var(--Rose800);
+    font-weight: 700;
+}
+
+.list-time-preparation{
+    margin-left: 45px;
+    
+}
+
+.preparation-elements{
+    margin:7px 0px;
+}
+
+.text-time-preparation{
+    font-weight: 600;
+    margin-left: 20px;
+}
