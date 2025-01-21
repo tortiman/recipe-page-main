@@ -135,6 +135,9 @@ body{
     
 }
 
+.text-ingredients-items{
+    margin-left: 25px;
+}
 .list-ingredients li::before{
     content:'\2022';    
     font-size: 24px;
@@ -150,7 +153,8 @@ body{
     margin-top: 30px;
     align-items: start;
     gap: 15px;
-
+    border-bottom: 1px solid black;
+    padding-bottom:30px ;
 }
 
 .title-instructions{
@@ -160,13 +164,54 @@ body{
 }
 
 
+.list-instructions{
+    margin-left: 35px;
+    list-style: none;
+    counter-reset: list;
+}
 
 .list-instructions li{
-    margin-left: 20px;
-    padding-left: 20px;
-
-}
-
-.list-instructions li::before{
+    counter-increment: list;
     
 }
+.list-instructions li::before{
+    content: counter(list)'. ';
+    color:var(--Brown800);
+    font-weight: 700;
+}
+
+.start-text-instructions{
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.instructions-items{
+    text-indent: -35px;
+}
+
+.nutrition{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 39px;
+    margin-right: 39px;
+
+}
+
+.title-nutrition{
+    font-family: 'Young serif';
+    font-size: 26px;
+    color: var(--Brown800);
+    margin-bottom: 20px;
+}
+
+.text-nutrition{
+    margin-bottom: 30px;
+}
+
+.table-nutrition{
+    padding-left: 30px;
+    border-collapse: separate;
+ 
+}
+
