@@ -76,6 +76,9 @@ body{
     background-color: var(--Rose50);
     width: 100%;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -90,6 +93,7 @@ body{
 .list-time-preparation{
     margin-left: 45px;
     list-style-type: none;
+    padding-bottom: 14.5px;
 }
 
 .list-time-preparation li::before{
@@ -113,9 +117,9 @@ body{
     flex-direction: column;
     margin-left: 39px;
     margin-right: 39px;
-    margin-top: 42px;
+    margin-top: 22px;
     align-items: start;
-    gap: 25px;
+    gap: 10px;
     padding-bottom: 20px;
     border-bottom: 1px solid black;
 }
@@ -131,7 +135,7 @@ body{
 }
 
 .list-ingredients li{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     
 }
 
@@ -172,6 +176,7 @@ body{
 
 .list-instructions li{
     counter-increment: list;
+    padding-bottom: 10px;
     
 }
 .list-instructions li::before{
@@ -220,7 +225,7 @@ body{
 .table-body tr td{
     padding-left: 30px;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
     border-bottom: 1px solid black;
     
 }
@@ -236,3 +241,10 @@ td:nth-child(1){
     border-bottom: none;
 }
 
+.text-table{
+    color: var(--Brown800);
+    font-weight: 700;
+}
+
+
+@media ()
