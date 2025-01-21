@@ -206,12 +206,33 @@ body{
 }
 
 .text-nutrition{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    
 }
 
 .table-nutrition{
+    padding-left: 50px;
+    border-collapse: collapse;
+    margin-top: -10px;
+    table-layout: fixed;
+}
+
+.table-body tr td{
     padding-left: 30px;
-    border-collapse: separate;
- 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    
+}
+
+td:nth-child(1){
+    width: 305px;
+}
+.table-body tr:first-child{
+    padding-top: 0;
+}
+
+ tr:last-child td{
+    border-bottom: none;
 }
 
