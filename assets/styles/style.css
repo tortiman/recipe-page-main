@@ -35,7 +35,7 @@ body{
 
 .recipe-container{
     width: 736px;
-    height: 1710px;
+    height: 1720px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -58,17 +58,17 @@ body{
 
 .preparation{
     display: flex;
+    width: 90%;
     align-items: start;
     flex-direction: column;
-    margin-left: 39px;
-    margin-right: 39px;
+    
     gap: 25px;
     margin-top: 25px;
 }
 
 .title{
     font-family: "Young Serif";
-    font-size: 32px;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
@@ -98,7 +98,7 @@ body{
 
 .list-time-preparation li::before{
     content:'\2022';
-    font-size: 24px;
+    font-size: 1.8rem;
     color: var(--Brown800);
 
 }
@@ -121,12 +121,12 @@ body{
     align-items: start;
     gap: 10px;
     padding-bottom: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .title-ingredients{
     font-family: 'Young serif';
-    font-size: 26px;
+    font-size: 1.8rem;
     color: var(--Brown800);
 }
 
@@ -134,17 +134,13 @@ body{
     list-style-type: none;
 }
 
-.list-ingredients li{
-    margin-bottom: 8px;
-    
-}
 
 .text-ingredients-items{
     margin-left: 25px;
 }
 .list-ingredients li::before{
     content:'\2022';    
-    font-size: 24px;
+    font-size: 1.8rem;
     color: var(--Brown800);
     
 }
@@ -157,13 +153,13 @@ body{
     margin-top: 30px;
     align-items: start;
     gap: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom:30px ;
 }
 
 .title-instructions{
     font-family: 'young serif';
-    font-size: 26px;
+    font-size: 1.8rem;
     color: var(--Brown800);
 }
 
@@ -205,7 +201,7 @@ body{
 
 .title-nutrition{
     font-family: 'Young serif';
-    font-size: 26px;
+    font-size: 1.8rem;
     color: var(--Brown800);
     margin-bottom: 20px;
 }
@@ -226,7 +222,7 @@ body{
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     
 }
 
@@ -247,4 +243,8 @@ td:nth-child(1){
 }
 
 
-@media ()
+@media (max-width:1000px){
+    .background{
+        width: 736px;;
+    }
+}
